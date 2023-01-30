@@ -12,13 +12,13 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:gravity="end|center"
-        android:text="6,291/5"
+        android:text="0"
         android:textColor="#91929A"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -29,14 +29,14 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:gravity="end|center"
-        android:text="1,258.2"
+        android:text=""
         android:textColor="#FFF"
-        android:textSize="60sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -47,9 +47,8 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:orientation="horizontal"
         android:weightSum="4"
@@ -59,6 +58,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/C"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -70,6 +70,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/pm"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -81,6 +82,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/foiz"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -94,6 +96,7 @@
             />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/divide"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -109,7 +112,7 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
+        android:layout_height="60dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
@@ -121,6 +124,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="0dp"
+            android:id="@+id/seven"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
@@ -131,6 +135,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/eight"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -142,6 +147,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/nine"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -155,6 +161,7 @@
             />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/multiply"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -171,7 +178,7 @@
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
+        android:layout_height="60dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
@@ -182,6 +189,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/four"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -193,6 +201,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/five"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -204,6 +213,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/six"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -217,6 +227,7 @@
             />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/minus"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -233,7 +244,7 @@
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
+        android:layout_height="60dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
@@ -242,6 +253,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/one"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -253,6 +265,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/two"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -264,6 +277,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/three"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -277,6 +291,7 @@
             />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/plus"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -293,7 +308,7 @@
     <LinearLayout
 
         android:layout_width="match_parent"
-        android:layout_height="72dp"
+        android:layout_height="60dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
@@ -302,6 +317,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/dot"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -313,6 +329,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/zero"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -324,6 +341,7 @@
             app:cornerRadius="24dp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/remove"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
@@ -337,13 +355,13 @@
             />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/teng"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#4B5EFC"
             android:fontFamily="@font/main"
             android:text="="
-
             android:textAllCaps="false"
             android:textSize="30sp"
             app:cornerRadius="24dp"
